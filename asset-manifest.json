@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/insure-page/static/css/main.89133e0f.chunk.css",
+    "main.js": "/insure-page/static/js/main.f0ce6531.chunk.js",
+    "main.js.map": "/insure-page/static/js/main.f0ce6531.chunk.js.map",
+    "runtime-main.js": "/insure-page/static/js/runtime-main.625f8e01.js",
+    "runtime-main.js.map": "/insure-page/static/js/runtime-main.625f8e01.js.map",
+    "static/js/2.67c96268.chunk.js": "/insure-page/static/js/2.67c96268.chunk.js",
+    "static/js/2.67c96268.chunk.js.map": "/insure-page/static/js/2.67c96268.chunk.js.map",
+    "static/js/3.a4a55d0c.chunk.js": "/insure-page/static/js/3.a4a55d0c.chunk.js",
+    "static/js/3.a4a55d0c.chunk.js.map": "/insure-page/static/js/3.a4a55d0c.chunk.js.map",
+    "index.html": "/insure-page/index.html",
+    "static/css/main.89133e0f.chunk.css.map": "/insure-page/static/css/main.89133e0f.chunk.css.map",
+    "static/js/2.67c96268.chunk.js.LICENSE.txt": "/insure-page/static/js/2.67c96268.chunk.js.LICENSE.txt",
+    "static/media/header.css": "/insure-page/static/media/bg-pattern-how-we-work-mobile.96cd9d06.svg",
+    "static/media/icon-close.f964824b.svg": "/insure-page/static/media/icon-close.f964824b.svg",
+    "static/media/icon-hamburger.d550a648.svg": "/insure-page/static/media/icon-hamburger.d550a648.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.625f8e01.js",
+    "static/js/2.67c96268.chunk.js",
+    "static/css/main.89133e0f.chunk.css",
+    "static/js/main.f0ce6531.chunk.js"
+  ]
+}
