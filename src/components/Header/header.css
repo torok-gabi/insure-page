@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+.navbar {
+    width: 100vw;
+    font-family: 'DM Serif Display', serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.nav-menu,
+.hamburger.active,
+.close {
+    display: none;
+}
+
+.hamburger,
+.close.active {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.nav-menu.active {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+    background-color: hsl(270, 9%, 17%);
+}
+
+.bg-img {
+    background-image: url(../../images/bg-pattern-how-we-work-mobile.svg);
+    background-clip: border-box;
+    transform: rotate(78deg);
+}
