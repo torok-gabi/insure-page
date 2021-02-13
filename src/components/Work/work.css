@@ -1,0 +1,64 @@
+.work-container {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.desktop-bg-img,
+.desktop-img,
+.desktop-bg-right-img {
+    display: none;
+}
+
+.img-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-container {
+    width: 100%;
+    height: 60vh;
+    padding: 2rem;
+    text-align: center;
+    background-color: hsl(270, 9%, 17%);
+    color: hsl(0, 0%, 98%);
+    margin-top: -1rem;
+    position: relative;
+}
+
+.mobile-bg-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.mobile-bg-right-img {
+    position: absolute;
+    right: 0;
+    bottom: -11rem;
+}
+
+.view-plans-btn {
+    background-color: hsl(270, 9%, 17%);
+    color: hsl(0, 0%, 98%);
+    padding: 1rem 2rem;
+    border: 1px solid hsl(0, 0%, 98%);
+    margin-top: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+    cursor: pointer;
+}
+
+.view-plans-btn:hover {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(270, 9%, 17%);
+}

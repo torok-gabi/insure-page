@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import hamburger from "../../images/icon-hamburger.svg";
 import close from "../../images/icon-close.svg";
-import bgMobilImg from "../../images/bg-pattern-how-we-work-mobile.svg";
+import logo from "../../images/logo.svg";
 import "./header.css";
 
 const Header = () => {
@@ -14,7 +14,7 @@ const Header = () => {
     return (
         <header className="header">
             <nav className="navbar">
-                <a href="" className="Navbar-brand">Insure</a>
+                <span><img src={logo} alt="logo img"/></span>
                 <div className={sidebar ? "hamburger active" : "hamburger"}>
                     <span className="hamburger-icon" onClick={clickHandler}><img src={hamburger} alt="hamburger icon"/></span>
                 </div>
