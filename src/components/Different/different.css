@@ -1,0 +1,68 @@
+.different-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.line {
+    width: 40%;
+    text-align: center;
+    border-top: 1px solid hsl(273, 4%, 51%);
+    margin-top: 2rem;
+}
+
+h2 {
+    font-family: 'DM Serif Display', serif;
+    letter-spacing: 1.2px;
+    padding: 2rem 0;
+    font-size: 2rem;
+}
+
+.content {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.content h4 {
+    margin: 2rem 0;
+}
+
+.content img {
+    max-width: 4rem;
+}
+
+.how-we-work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-bottom: 2rem;
+    margin: 3rem 0;
+    text-align: center;
+    color: hsl(0, 0%, 98%);
+    background-color: hsl(270, 9%, 17%);
+    padding: 3rem 0;
+}
+
+.view-plans-btn {
+    margin-bottom: 2rem;
+}
+
+.work-desktop {
+    display: none;
+}
+
+.work-mobile {
+    position: absolute;
+    top: 0;
+    right: 0;
+}

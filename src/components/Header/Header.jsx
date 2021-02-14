@@ -27,9 +27,7 @@ const Header = () => {
                 <li className="nav-item"><a href="">Blog</a></li>
                 <li className="nav-item"><a href="">Account</a></li>
                 <li className="nav-item"><a href="">View plans</a></li>
-                <div className="bg-img">
-                    {/* <img className="menu-bg" src={bgMobilImg} alt=""/> */}
-                </div>
+                <div className="bg-img"></div>
             </ul>    
         </header>
     )
