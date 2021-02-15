@@ -1,24 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+.header {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .navbar {
     width: 100vw;
     height: auto;
     font-family: 'DM Serif Display', serif;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    justify-content: space-between;
+    padding: 1rem .5rem;
 }
 
 .nav-menu,
 .hamburger.active,
-.close {
+.close,
+.navbar-list {
     display: none;
 }
 
 .hamburger,
 .close.active {
     display: flex;
-    width: 100%;
+    width: 10%;
     justify-content: flex-end;
 }
 
@@ -38,8 +48,12 @@
     padding: 1rem 2rem;
 }
 
-.nav-item:hover {
+li:nth-child(4) {
     border: 2px solid hsl(0, 0%, 98%);
+}
+
+.nav-item {
+    text-align: center;
 }
 
 .nav-item a {
@@ -50,11 +64,40 @@
     letter-spacing: 1.1px;
 }
 
-.bg-img {
-    width: 100vw;
-    height: 100%;
-    background-image: url(../../images/bg-pattern-mobile-nav.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: bottom;
+.nav-pattern {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .nav-pattern {
+        width: 100%;
+        height: 40%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar-list {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .nav-item:nth-child(4) {
+        border: 2px solid hsl(270, 9%, 17%);
+    }
+    .nav-item a {
+        color: hsl(270, 9%, 17%);
+    }
+    .hamburger,
+    .hamburger-icon,
+    .close,
+    .close-icon,
+    .nav-menu,
+    .nav-menu.active,
+    .nav-pattern {
+        display: none;
+    }
 }

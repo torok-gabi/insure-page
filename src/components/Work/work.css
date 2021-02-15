@@ -21,13 +21,16 @@
 
 .text-container {
     width: 100%;
-    height: 60vh;
+    min-height: 80vh;
     padding: 2rem;
     text-align: center;
     background-color: hsl(270, 9%, 17%);
     color: hsl(0, 0%, 98%);
     margin-top: -1rem;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .mobile-bg-img {
@@ -48,6 +51,7 @@ h1 {
 }
 
 .view-plans-btn {
+    max-width: 13rem;
     background-color: hsl(270, 9%, 17%);
     color: hsl(0, 0%, 98%);
     padding: 1rem 2rem;
@@ -61,4 +65,65 @@ h1 {
 .view-plans-btn:hover {
     background-color: hsl(0, 0%, 98%);
     color: hsl(270, 9%, 17%);
+}
+
+@media only screen and (min-width: 768px) {
+    .text-container {
+        padding-top: 6rem;
+        margin: auto auto;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .desktop-bg-right-img,
+    .desktop-bg-img {
+        display: flex;
+        position: absolute;
+    }
+    .desktop-bg-img {
+        width: 12%;
+        bottom: -11rem;
+        left: 0;
+    }
+    .desktop-bg-right-img {
+        width: 35%;
+        height: auto;
+        top: -4rem;
+        right: -2rem;
+        z-index: 1;
+    }
+    .desktop-line {
+        border-top: 1px solid hsl(0, 0%, 98%);
+        width: 10%;
+        margin-bottom: 2rem;
+    }
+    .text-container {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 2rem;
+        text-align: left;
+    }
+    .text {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        justify-content: flex-start;
+        padding-top: 1rem;
+    }
+    .desktop-img {
+        flex-grow: 1;
+        display: flex;
+        width: 50%;
+        height: auto;
+        z-index: 1;
+        position: absolute;
+        top: 10rem;
+        right: 7rem;
+    }
+    .mobile-img,
+    .mobile-bg-right-img,
+    .mobile-bg-img {
+        display: none;
+    }
 }

@@ -7,7 +7,11 @@
 }
 
 .logo-content {
+    width: 80%;
     text-align: center;
+    margin-top: 2rem;
+    padding: 2rem 0;
+    border-bottom: 1px solid lightgrey;
 }
 
 .logo,
@@ -43,4 +47,37 @@
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width:992px) {
+    .footer-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0 5rem;
+        margin: 0;
+    }
+    .logo-content {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: none;
+    }
+    .text-content {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        text-align: left;
+    }
+    .attribution {
+        width: 100%;
+        margin: 2rem 0;
+        text-align: center;
+        font-size: .7rem;
+    }
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+        text-decoration: none;
+    }
 }
