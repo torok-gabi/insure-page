@@ -114,7 +114,7 @@ h1 {
     .desktop-img {
         flex-grow: 1;
         display: flex;
-        width: 50%;
+        max-width: 50%;
         height: auto;
         z-index: 1;
         position: absolute;
@@ -125,5 +125,13 @@ h1 {
     .mobile-bg-right-img,
     .mobile-bg-img {
         display: none;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .desktop-img {
+        display: flex;
+        top: 15rem;
+        right: 10rem;
     }
 }

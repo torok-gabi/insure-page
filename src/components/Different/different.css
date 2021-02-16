@@ -115,3 +115,9 @@ h2 {
         display: none;
     }
 }
+
+@media only screen and (min-width: 1440px) {
+    .how-we-work {
+        padding: 4rem;
+    }
+}

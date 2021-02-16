@@ -101,3 +101,9 @@ li:nth-child(4) {
         display: none;
     }
 }
+
+@media only screen and (min-width: 1440px) {
+    .navbar {
+        padding: 1rem 2rem;
+    }
+}
