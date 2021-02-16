@@ -60,6 +60,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 1.1px;
     cursor: pointer;
+    z-index: 1;
 }
 
 .view-plans-btn:hover {
@@ -86,10 +87,10 @@ h1 {
         left: 0;
     }
     .desktop-bg-right-img {
-        width: 35%;
+        width: 25%;
         height: auto;
-        top: -4rem;
-        right: -2rem;
+        top: 0;
+        right: 0;
         z-index: 1;
     }
     .desktop-line {

@@ -95,8 +95,9 @@ h2 {
         align-items: flex-start;
     }
     .how-we-work {
+        position: relative;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
         padding: 0 2rem;
     }
     .how-we-work h2 {
@@ -104,7 +105,7 @@ h2 {
         text-align: left;
     }
     .work-desktop {
-        max-width: 80%;
+        width: 50%;
         height: 100%;
         display: flex;
         position: absolute;

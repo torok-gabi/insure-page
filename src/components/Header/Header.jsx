@@ -17,10 +17,10 @@ const Header = () => {
             <nav className="navbar">
                 <span><img src={logo} alt="logo img"/></span>
                 <ul className="navbar-list">
-                    <li className="nav-item"><a href="">How we work</a></li>
-                    <li className="nav-item"><a href="">Blog</a></li>
-                    <li className="nav-item"><a href="">Account</a></li>
-                    <li className="nav-item"><a href="">View plans</a></li>
+                    <li ><a href="" className="nav-item">How we work</a></li>
+                    <li ><a href="" className="nav-item">Blog</a></li>
+                    <li ><a href="" className="nav-item">Account</a></li>
+                    <li className="border"><a href="" className="nav-item">View plans</a></li>
                     <img className="nav-pattern" src={navImg} alt="line pattern"/>
                 </ul>
                 <div className={sidebar ? "hamburger active" : "hamburger"}>
@@ -32,10 +32,10 @@ const Header = () => {
             </nav>
             <div className={sidebar ? "nav-menu active" : "nav-menu"}>
                 <ul className="nav-list">
-                    <li className="nav-item"><a href="">How we work</a></li>
-                    <li className="nav-item"><a href="">Blog</a></li>
-                    <li className="nav-item"><a href="">Account</a></li>
-                    <li className="nav-item"><a href="">View plans</a></li>
+                    <li ><a href="" className="nav-item">How we work</a></li>
+                    <li ><a href="" className="nav-item">Blog</a></li>
+                    <li ><a href="" className="nav-item">Account</a></li>
+                    <li className="border"><a href="" className="nav-item">View plans</a></li>
                     <img className="nav-pattern" src={navImg} alt="line pattern"/>
                 </ul>    
             </div>
