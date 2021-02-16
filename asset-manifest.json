@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/insure-page/static/css/main.6a099c09.chunk.css",
-    "main.js": "/insure-page/static/js/main.fde36bab.chunk.js",
-    "main.js.map": "/insure-page/static/js/main.fde36bab.chunk.js.map",
-    "runtime-main.js": "/insure-page/static/js/runtime-main.568f60f7.js",
-    "runtime-main.js.map": "/insure-page/static/js/runtime-main.568f60f7.js.map",
+    "main.css": "/insure-page/static/css/main.e1c43f25.chunk.css",
+    "main.js": "/insure-page/static/js/main.25c20c53.chunk.js",
+    "main.js.map": "/insure-page/static/js/main.25c20c53.chunk.js.map",
+    "runtime-main.js": "/insure-page/static/js/runtime-main.68b4126c.js",
+    "runtime-main.js.map": "/insure-page/static/js/runtime-main.68b4126c.js.map",
     "static/js/2.67c96268.chunk.js": "/insure-page/static/js/2.67c96268.chunk.js",
     "static/js/2.67c96268.chunk.js.map": "/insure-page/static/js/2.67c96268.chunk.js.map",
-    "static/js/3.3706b046.chunk.js": "/insure-page/static/js/3.3706b046.chunk.js",
-    "static/js/3.3706b046.chunk.js.map": "/insure-page/static/js/3.3706b046.chunk.js.map",
+    "static/js/3.e1d8be68.chunk.js": "/insure-page/static/js/3.e1d8be68.chunk.js",
+    "static/js/3.e1d8be68.chunk.js.map": "/insure-page/static/js/3.e1d8be68.chunk.js.map",
     "index.html": "/insure-page/index.html",
-    "static/css/main.6a099c09.chunk.css.map": "/insure-page/static/css/main.6a099c09.chunk.css.map",
+    "static/css/main.e1c43f25.chunk.css.map": "/insure-page/static/css/main.e1c43f25.chunk.css.map",
     "static/js/2.67c96268.chunk.js.LICENSE.txt": "/insure-page/static/js/2.67c96268.chunk.js.LICENSE.txt",
     "static/media/bg-pattern-how-we-work-desktop.eb268c33.svg": "/insure-page/static/media/bg-pattern-how-we-work-desktop.eb268c33.svg",
     "static/media/bg-pattern-how-we-work-mobile.96cd9d06.svg": "/insure-page/static/media/bg-pattern-how-we-work-mobile.96cd9d06.svg",
@@ -18,20 +18,24 @@
     "static/media/bg-pattern-intro-left-mobile.111709ef.svg": "/insure-page/static/media/bg-pattern-intro-left-mobile.111709ef.svg",
     "static/media/bg-pattern-intro-right-desktop.0c130b3f.svg": "/insure-page/static/media/bg-pattern-intro-right-desktop.0c130b3f.svg",
     "static/media/bg-pattern-intro-right-mobile.0354e571.svg": "/insure-page/static/media/bg-pattern-intro-right-mobile.0354e571.svg",
-    "static/media/header.css": "/insure-page/static/media/bg-pattern-mobile-nav.b2fceba3.svg",
+    "static/media/bg-pattern-mobile-nav.b2fceba3.svg": "/insure-page/static/media/bg-pattern-mobile-nav.b2fceba3.svg",
     "static/media/icon-affordable-prices.a14b8077.svg": "/insure-page/static/media/icon-affordable-prices.a14b8077.svg",
     "static/media/icon-close.f964824b.svg": "/insure-page/static/media/icon-close.f964824b.svg",
+    "static/media/icon-facebook.4333c445.svg": "/insure-page/static/media/icon-facebook.4333c445.svg",
     "static/media/icon-hamburger.d550a648.svg": "/insure-page/static/media/icon-hamburger.d550a648.svg",
+    "static/media/icon-instagram.46cfe17c.svg": "/insure-page/static/media/icon-instagram.46cfe17c.svg",
     "static/media/icon-people-first.d7caeec6.svg": "/insure-page/static/media/icon-people-first.d7caeec6.svg",
+    "static/media/icon-pinterest.5b02655f.svg": "/insure-page/static/media/icon-pinterest.5b02655f.svg",
     "static/media/icon-snappy-process.eea91882.svg": "/insure-page/static/media/icon-snappy-process.eea91882.svg",
+    "static/media/icon-twitter.5e850eb3.svg": "/insure-page/static/media/icon-twitter.5e850eb3.svg",
     "static/media/image-intro-desktop.2f3429f6.jpg": "/insure-page/static/media/image-intro-desktop.2f3429f6.jpg",
     "static/media/image-intro-mobile.8b8c3185.jpg": "/insure-page/static/media/image-intro-mobile.8b8c3185.jpg",
     "static/media/logo.b84080a1.svg": "/insure-page/static/media/logo.b84080a1.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.568f60f7.js",
+    "static/js/runtime-main.68b4126c.js",
     "static/js/2.67c96268.chunk.js",
-    "static/css/main.6a099c09.chunk.css",
-    "static/js/main.fde36bab.chunk.js"
+    "static/css/main.e1c43f25.chunk.css",
+    "static/js/main.25c20c53.chunk.js"
   ]
 }
